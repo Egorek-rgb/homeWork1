@@ -1,0 +1,170 @@
+body {
+  background: linear-gradient(#374151, #111827);
+  background-repeat: no-repeat;
+  color: white;
+  box-sizing: border-box;
+}
+
+.header__item:first-child,
+.header__item:nth-child(2) {
+  font-size: 18px;
+}
+
+.headr__items:first-child::before {
+  display: flex;
+  content: "B";
+  margin-right: -41px;
+  width: 35px;
+  height: 35px;
+  background-color: #4b5563;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="search"] {
+  border-radius: 100px;
+  background-color: #1f2937;
+  border: none;
+  width: 224px;
+  height: 40px;
+  position: relative;
+}
+form {
+  position: relative;
+}
+.input__wrapper::before {
+  content: url(/img/search.svg);
+  color: black;
+  position: absolute;
+  z-index: 1;
+  left: 18px;
+  top: 14px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+input {
+  padding-left: 49px;
+  color: rgb(168, 172, 196);
+}
+.header {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 71px;
+}
+
+.headr__items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.header__item:last-child,
+.header__item:nth-child(3) {
+  font-size: 16px;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.women {
+  font-size: 16px;
+}
+
+.px14 {
+  font-size: 14px;
+}
+
+.about-color {
+  font-size: 20px;
+}
+
+.answer {
+  font-size: 16px;
+}
+
+.search {
+  font-size: 16px;
+}
+
+.footer {
+  font-size: 16px;
+}
+
+.women {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.hero__header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workspace {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title {
+  margin-top: 14px;
+}
+
+.women {
+  margin-top: 30px;
+}
+
+.circle {
+  display: inline-block;
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 4px;
+  width: 4px;
+  border-radius: 100px;
+  background-color: white;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+}
+
+article {
+  max-width: 708px;
+  margin: 0 auto;
+  margin-top: 67px;
+}
+
+.search {
+  margin-top: 50px;
+}
+
+.answer {
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 103px;
+  margin-bottom: 77px;
+}

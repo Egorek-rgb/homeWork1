@@ -7,15 +7,22 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="/register" method="post">
+    <form action="/register" method="post" class="register">
       <div>
-        <h1>Регистрация</h1>
+        <h1 class="register__title">Регистрация</h1>
         <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
       </div>
-      <div>
+      <div class="form-fields">
         <input type="text" name="company" id="company" value="Мой компания" />
-        <input type="text" name="name" id="name" placeholder="Имя" />
-        <input type="text" name="surname" id="surname" placeholder="Фамилия" />
+        <div class="fullname">
+          <input type="text" name="name" id="name" placeholder="Имя" />
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Фамилия"
+          />
+        </div>
         <input type="email" name="email" id="email" placeholder="E-mail" />
         <button type="submit">Зарегистрироваться</button>
       </div>
